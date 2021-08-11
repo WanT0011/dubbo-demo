@@ -1,0 +1,18 @@
+server:
+  port: 18002
+
+dubbo:
+#  scan:
+#    #扫描Dubbo服务的路径
+#    base-packages: com.want.demo.provider.api
+  consumer:
+    #服务端的统一版本
+    version: 1.0.0
+  cloud:
+    #订阅的服务
+    subscribed-services: 'dubbo-provider'
+#  protocols:
+#    http:
+#      #dubbo 端口
+#      port: 38001
+

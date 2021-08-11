@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: dubbo-consumer
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        username: nacos
+        password: nacos
+      discovery:
+        username: nacos
+        password: nacos
